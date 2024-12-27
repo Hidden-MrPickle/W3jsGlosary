@@ -1,3 +1,4 @@
+> ![](./logo.png)
 # W3School Javascript Glossary
 > [!NOTE]
 > This is the official large name for W3SjsGlossary
@@ -31,3 +32,7 @@
 
 > ### Take note you can always visit the official puppeteer documentation for future modifications
 > ### [Documentation](https://pptr.dev/guides/what-is-puppeteer)
+
+
+> ### The Output will show :
+> ![](./pupp.gif)

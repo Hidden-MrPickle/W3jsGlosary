@@ -10,7 +10,7 @@ await page.goto("https://www.w3schools.com/jsref/jsref_obj_array.asp", {
 });
 console.log("Searching for the method ... ");
 const urlMethods = "https://www.w3schools.com/jsref/";
-let requestedMethod = "jsref_map.asp";
+const requestedMethod = process.argv[2] || "jsref_map.asp";
 let matches = await page.$$eval(
   "div#main.w3-col.l10.m12>div.w3-stretch>table.ws-table-all.notranslate>tbody>tr>td>a",
   (elements) => elements.map((x) => x.getAttribute("href"))
